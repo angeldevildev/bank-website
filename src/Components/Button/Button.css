@@ -1,0 +1,21 @@
+button {
+    transition: all 0.3s;
+    width: 183px;
+    height: 63px;
+    font-size: 18px;
+}
+
+button:hover{
+    box-shadow: 0 10px 15px 0 var(--bg-color);
+    color: #000 !important;
+    cursor: pointer;
+    background-color: #fff !important;
+}
+
+@media (max-width: 1440px) {
+    button {
+        width: 144px !important;
+        height: 49px !important;
+        font-size: 14px;
+    }
+}
