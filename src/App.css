@@ -6,3 +6,9 @@
     --text-color: #CAFF33;
     --bg-color: #CAFF33;
 }
+
+@font-face {
+    font-family: "LexendRegular";
+    src:local("Lexend-Regular"),
+    url('./assets/fonts/lexend/Lexend-Regular.ttf')
+  }

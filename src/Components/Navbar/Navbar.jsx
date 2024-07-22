@@ -3,6 +3,7 @@ import { IconMenu2, IconX } from "@tabler/icons-react";
 import "./Navbar.css";
 import logo from '../../logo.png'
 import MobileNavbar from "./MobileNavbar/MobileNavbar";
+import '../../App.css'
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -12,7 +13,7 @@ function Navbar() {
   };
 
   return (
-    <div>
+    <div style={{ fontFamily: 'LexendRegular' }}>
       <nav>
         {/* mobile */}
         <div className={`mobile-navbar ${nav ? "open-nav" : ""}`}>
@@ -62,7 +63,7 @@ function Navbar() {
             <a className="navbar__buttons__sign-in" href="/">
               Sign Up
             </a>
-            <a className="navbar__buttons__register" href="/">
+            <a className="navbar__buttons__register" href="/" style={{  }}>
               Log In
             </a>
           </div>
