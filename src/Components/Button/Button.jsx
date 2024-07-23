@@ -9,7 +9,9 @@ function Button({
   margin, 
   backColor, 
   border,
-  color
+  color,
+  width,
+  height
 }) {
   return (
     <div className='btn-layout'>
@@ -20,6 +22,8 @@ function Button({
         margin,
         border,
         color,
+        width,
+        height,
         backgroundColor: backColor,
        }}>{text}</button>
     </div>
